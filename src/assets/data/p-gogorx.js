@@ -17,11 +17,15 @@ import productImg13 from "../pimages/all-items/13.jpg";
 import productImg14 from "../pimages/all-items/14.jpg";
 import productImg15 from "../pimages/all-items/15.jpg";
 import productImg16 from "../pimages/all-items/16.jpg";
+import productImg17 from "../pimages/all-items/17.jpg";
+import productImg18 from "../pimages/all-items/18.jpg";
+import productImg19 from "../pimages/all-items/19.jpg";
+import productImg20 from "../pimages/all-items/20.jpg";
 
 const products = [
   {
     id: "01",
-    productName: "Acetaminophen ",
+    productName: "Acetaminophen",
     imgUrl: productImg01,
     category: "sofa",
     price: 193,
@@ -106,31 +110,8 @@ const products = [
     avgRating: 4.7,
   },
   {
-    id: "04",
-    productName: "Fllufy Sheep Sofa",
-    imgUrl: productImg04,
-    category: "sofa",
-    price: 163,
-    shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-    reviews: [
-      {
-        rating: 4.6,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      },
-      {
-        rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      },
-    ],
-    avgRating: 4.7,
-  },
-
-  {
     id: "05",
-    productName: "Faux Velvet Sofa",
+    productName: "Lipitor - Atorvastatin",
     imgUrl: productImg05,
     category: "sofa",
     price: 163,
@@ -153,7 +134,7 @@ const products = [
 
   {
     id: "06",
-    productName: "Fllufy Sheep Sofa",
+    productName: "Hydroclorothiazide",
     imgUrl: productImg06,
     category: "sofa",
     price: 163,
@@ -173,10 +154,33 @@ const products = [
     ],
     avgRating: 4.7,
   },
+
   {
     id: "07",
-    productName: "Sakarias Armchair",
+    productName: "Ventolin HFA",
     imgUrl: productImg07,
+    category: "sofa",
+    price: 163,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.6,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.9,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.7,
+  },
+  {
+    id: "08",
+    productName: "Crestor - Rosuvastatin",
+    imgUrl: productImg08,
     category: "chair",
     price: 99,
     shortDesc:
@@ -197,9 +201,9 @@ const products = [
   },
 
   {
-    id: "08",
-    productName: "Baltsar Chair",
-    imgUrl: productImg08,
+    id: "09",
+    productName: "Advair Diskus",
+    imgUrl: productImg09,
     category: "chair",
     price: 89,
     shortDesc:
@@ -220,9 +224,9 @@ const products = [
   },
 
   {
-    id: "09",
-    productName: "Helmar Chair",
-    imgUrl: productImg09,
+    id: "10",
+    productName: "Lantus Solostar",
+    imgUrl: productImg10,
     category: "chair",
     price: 112,
     shortDesc:
@@ -243,9 +247,9 @@ const products = [
   },
 
   {
-    id: "10",
-    productName: "Apple iPhone 12 Pro",
-    imgUrl: productImg13,
+    id: "11",
+    productName: "Lyrica - Pregabalin",
+    imgUrl: productImg11,
     category: "mobile",
     price: 799,
     shortDesc:
@@ -265,9 +269,9 @@ const products = [
     avgRating: 4.8,
   },
   {
-    id: "25",
-    productName: "Sakarias Armchair",
-    imgUrl: productImg10,
+    id: "12",
+    productName: "Crestor - Rosuvastatin",
+    imgUrl: productImg12,
     category: "chair",
     price: 99,
     shortDesc:
@@ -287,9 +291,9 @@ const products = [
     avgRating: 4.7,
   },
   {
-    id: "11",
-    productName: "Apple iPhone 12 Max",
-    imgUrl: productImg14,
+    id: "13",
+    productName: "Remdesivir Veklury",
+    imgUrl: productImg13,
     category: "mobile",
     price: 799,
     shortDesc:
@@ -310,9 +314,9 @@ const products = [
   },
 
   {
-    id: "12",
-    productName: "Realme 8",
-    imgUrl: productImg15,
+    id: "14",
+    productName: "Monoclonal Antibodies",
+    imgUrl: productImg14,
     category: "mobile",
     price: 599,
     shortDesc:
@@ -333,9 +337,119 @@ const products = [
   },
 
   {
-    id: "13",
-    productName: "One Plus Nord",
+    id: "15",
+    productName: "Electron Microspope",
+    imgUrl: productImg15,
+    category: "mobile",
+    price: 799,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.9,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.8,
+  },
+  {
+    id: "16",
+    productName: "Surgical Mask",
     imgUrl: productImg16,
+    category: "mobile",
+    price: 799,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.9,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.8,
+  },
+  {
+    id: "17",
+    productName: "Tylenol",
+    imgUrl: productImg17,
+    category: "mobile",
+    price: 799,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.9,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.8,
+  },
+  {
+    id: "18",
+    productName: "Baby Cough Syrup",
+    imgUrl: productImg18,
+    category: "mobile",
+    price: 799,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.9,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.8,
+  },
+  {
+    id: "19",
+    productName: "Neutrogena Cleanser",
+    imgUrl: productImg19,
+    category: "mobile",
+    price: 799,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.9,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.8,
+  },
+  {
+    id: "20",
+    productName: "Boiron Sulphur",
+    imgUrl: productImg20,
     category: "mobile",
     price: 799,
     shortDesc:
